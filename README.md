@@ -40,7 +40,7 @@
 Пример: `[{'nums_len': 2, 'nums': ['10', '1'], 'pattern': ['-class-'], 'type': 'chast-str/les', 'link': 'https://gdz.ru/class-10/geometria/atanasyan-10-11/10-class-1'}, ...]`  
   
 ## get_gdz_images(ссылка)
-###Возвращает изображения с ответами из гдз  
+### Возвращает изображения с ответами из гдз  
 В качестве аргумента принимает ссылку на упражнение.  
 Отлично совмещается с get_exercises(ссылка) Пример: `get_gdz_images(get_exercises(get_school_textboks(get_classes_links()['10 класс']['Геометрия'])[0]['link'])[0]['link'])`  
 Возвращает список со строками. Каждая строка - одна ссылка на изображение.
